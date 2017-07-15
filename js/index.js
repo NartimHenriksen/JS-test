@@ -5,9 +5,7 @@ var menu_pos = 0;
 var name = "You";
 var namegotten = 0;
 var main = function() {
-	alert("Welcome to the page thats hard to navigate!");
-	confirm("Welcome to the page thats hard to navigate!");
-	alert("Welcome to the page thats hard to navigate!");
+	alert("Welcome to a page thats hard to navigate!");
 	setTimeout(function(){
 		name = prompt("What is your name?", "Dr. Gert");
 		alert("sup " + name + "?");
