@@ -75,7 +75,7 @@ var main = function() {
 				
 				setTimeout(function(){
 					if (namegotten==1){
-						$('.menu > ul > li:nth-child(2) > a > span').text(name+' is a bag of dicks!');
+						$('.menu > ul > li:nth-child(2) > a > span').text(name+' is a fart! Haha!');
 					}
 				},200);
 				
