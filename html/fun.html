@@ -5,13 +5,19 @@
     <link href='http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css'>
 
     <link href='../css/index.css' rel='stylesheet'>
+    <link href='../css/fun.css' rel='stylesheet'>
+    <link href='../css/wodry.css' rel='stylesheet'> <!---->
 
-    
+    <link href='../css/fun2.css' rel='stylesheet'>
+    <audio id="creepy" loop>
+    <source src="../mp3/creepy.mp3" type="audio/mp3" />
+    </audio>
+
   </head>
   <body>
 
     <div class="menu">
-      
+
       <!-- Menu icon -->
       <div class="icon-close">
         <img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/close.png">
@@ -19,7 +25,23 @@
 
       <!-- Menu -->
       <ul>
-        <li><a href="./html/about.html">About</a></li>
+        <li><a href="../index.html">About</a></li>
+        <li><a href="#"><span id="bodspan">Blog</span></a></li>
+        <li><a href="#">Fun</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="right-menu">
+
+      <!-- right-Menu icon -->
+      <div class="icon-close">
+        <img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/close.png">
+      </div>
+
+      <!-- right-Menu -->
+      <ul>
+        <li><a href="../index.html">About</a></li>
         <li><a href="#"><span id="bodspan">Blog</span></a></li>
         <li><a href="#">Fun</a></li>
         <li><a href="#">Contact</a></li>
@@ -28,13 +50,39 @@
 
     <!-- Main body -->
     <div class="jumbotron">
-		<div class="toprightcorner">
-			<div class="icon-menu">
-				<i class="fa fa-bars"></i>
-				menu
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="../js/fun.js"></script>
-	
+		  <!--right-menu in the back-->
+      <div class="topleftcorner">
+			  <!--div class="icon-menu"-->
+          <div class="rightb">
+				    <i class="fa fa-bars"></i>MENU
+          </div>
+        <!--/div-->
+      </div>
+      <!--regular menu in the front-->
+      <div class="topleftcorner">
+			  <!--div class="icon-menu"-->
+          <div class="leftb">
+				    <i class="fa fa-bars"></i>MENU
+          </div>
+        <!--/div-->
+      </div>
+      <!--num8-->
+      <div class="numpos">
+			  <div class="new-menu">
+            &#8291;
+        </div>
+      </div>
+    </div>
+    <div class = "center">
+			<p class = "textbody">
+        <font color="red"><span class="wodry">NVLVS|S&#923;T&#923;N</span></font><!---->
+      </p>
+    </div>
+
   </body>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../js/wodry.js"></script>
+	  <script src="../js/fun.js"></script>
+
 </html>

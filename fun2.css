@@ -1,0 +1,32 @@
+
+/*load some right menu stuff after the page because font is super slow*/
+
+
+.right-menu ul {
+  border-top: 1px solid #636366;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.right-menu li {
+  border-bottom: 1px solid #636366;
+  font-family: 'YouMurderer';
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+
+.right-menu a {
+  color: orange;
+  font-size: 35px;
+  font: arial;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+@font-face{
+    font-family: "YouMurderer";
+    src: url('youmurdererbb_reg.ttf');
+}

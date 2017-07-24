@@ -5,16 +5,19 @@ var menu_pos = 0;
 var name = "You";
 var namegotten = 0;
 var main = function() {
-	//open menu
-	
+
+
 $('.menu > ul > li:nth-child(2) > a > span').click(function(){
 	alert("nothing here yet");
-	
+
 });
 
 $('.menu > ul > li:nth-child(3) > a').click(function(){
-	alert("nothing here yet");
-	
+
+
+  alert("nothing here yet");
+
+  //open menu
 });
 	$('.icon-menu').click(function() {
 		$('.menu').animate({
@@ -29,9 +32,9 @@ $('.menu > ul > li:nth-child(3) > a').click(function(){
 		}, 200);
 		menu_pos = 2;
 	});
-	
 
-	
+
+
 
 
 	/* close menu */

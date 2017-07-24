@@ -1,0 +1,95 @@
+
+.jumbotron {
+  background: url('../img/fun_bg.jpg');
+
+  height: 100%;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+.leftb{
+
+  color: orange;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
+
+.rightb{
+
+  color: orange;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
+
+
+
+.numpos{
+    position:absolute;
+    top:590px;
+    right: 660px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+
+ }
+
+.right-menu {
+  /*background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;*/
+  /*background-image: url('../img/menu_bg.jpg');*/
+  background-image: url('../img/menu_bg_spooky.jpg');
+  right: -285px;  /* start off behind the scenes */
+  height: 100%;
+  position: fixed;
+  width: 285px;
+}
+
+
+/*HOW DO I LOAD THE SHIT UNDERNEATH THIS COMMENT DYNAMICALLY*/
+
+
+.right-menu ul {
+  border-top: 1px solid #636366;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.right-menu li {
+  border-bottom: 1px solid #636366;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+
+.right-menu a {
+  color: orange;
+  font-size: 35px;
+  font: arial;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+@font-face{
+    font-family: "YouMurderer";
+    src: url('youmurdererbb_reg.ttf');
+}
