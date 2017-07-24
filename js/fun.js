@@ -90,8 +90,7 @@ var main = function() {
 
 
 
-	$( 'body' ).mousemove(function() {
-
+	$( 'body' ).mousemove(function(event) {
     if(helpmsg==3 && musicon==0 && menu_pos!=0){
         musicon=1
         myAudio = new Audio('../mp3/creepy.mp3');
@@ -100,6 +99,8 @@ var main = function() {
     }
 		if (menu_clicked==1){
 			//far away
+
+
 			if(event.pageX < 450 && menu_pos!=2){
 				$('.right-menu').animate({
 					right: "0px"
@@ -138,7 +139,7 @@ var main = function() {
 					else if (helpmsg==2){
             helpmsg=3;
 						$('.right-menu > ul > li:nth-child(1) > a').html('<font color=\"red\" face=\"YouMurderer\" size=\"7\"> \{\} </font>');
-            //MUSIC when it hits mid
+            //MUSIC when it comes out
 
 
           }
