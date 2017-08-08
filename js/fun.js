@@ -158,7 +158,7 @@ var main = function() {
           }
 					else if (helpmsg==5){
             helpmsg=6;
-						$('.right-menu > ul > li:nth-child(4) > a').html('<font color="red" face="YouMurderer" size="7"> My name is</font> <font face="arial" color="silver">NVLVS</font>');/*Make the NVLVS font epic and powerful*/
+						$('.right-menu > ul > li:nth-child(4) > a').html('<font color="red" face="YouMurderer" size="7"> My name is</font> <font face="MetalMacabre" color="silver">NVLVS</font>');/*Make the NVLVS font epic and powerful*/
 
           }
 				},200);
@@ -209,7 +209,7 @@ var main = function() {
     	alert("Nice to meet you " + name + ". You can call me the gatekeeper. Now, please return to the front page. Nothing to see here.");
 
       //loadjscssfile("../css/fun2.css", "css") //dynamic loading doesnt work yet
-      },100);
+      },3000);
 	};
 
 

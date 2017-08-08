@@ -93,3 +93,8 @@
     font-family: "YouMurderer";
     src: url('youmurdererbb_reg.ttf');
 }
+
+@font-face{
+    font-family: "MetalMacabre";
+    src: url('MetalMacabre.ttf');
+}
