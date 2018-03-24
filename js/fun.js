@@ -189,7 +189,7 @@ var main = function() {
 
   $('.numpos').click(function(){
     if (helpmsg!=0){
-      alert("Site broken. Please refresh. Do not use the menu.");
+      alert("Site broken. Please refresh. Do not use the menu. If you do, you could discover my terrible secret- UHH I mean seatbelt. Don't use it or you might discover my terrible seatbelt. Please leave now.");
     }
     else{
       alert("ERROR CODE 666: Demonic powers not supported.\nPlease do not attempt to use the menu.");
@@ -209,7 +209,7 @@ var main = function() {
     	alert("Nice to meet you " + name + ". You can call me the gatekeeper. Now, please return to the front page. Nothing to see here.");
 
       //loadjscssfile("../css/fun2.css", "css") //dynamic loading doesnt work yet
-      },3000);
+      },1);//3000);
 	};
 
 

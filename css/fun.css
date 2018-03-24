@@ -61,10 +61,10 @@
   width: 285px;
 }
 
+/*Below fonts are used in the puzzle game but is currently removed for perfomance because it slows the page load time down.
+The plan was to make the page display before it is loaded so it doesnt feel slow to the user*/
 
-/*HOW DO I LOAD THE SHIT UNDERNEATH THIS COMMENT DYNAMICALLY*/
-
-
+/*
 .right-menu ul {
   border-top: 1px solid #636366;
   list-style: none;
@@ -98,3 +98,4 @@
     font-family: "MetalMacabre";
     src: url('MetalMacabre.ttf');
 }
+*/
